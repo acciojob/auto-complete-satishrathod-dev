@@ -6,7 +6,6 @@ const App = () => {
   return (
     <div>
       {/* Do not remove the main div */}
-      Heyyy..
       <AutoComplete />
     </div>
   );
