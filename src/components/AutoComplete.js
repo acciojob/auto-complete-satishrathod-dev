@@ -48,7 +48,7 @@ const AutoComplete = () => {
 
   // Hanlde input blur
   const handleBlur = () => {
-    setTimeout(() => setShowSuggestions(false), 100); // Delay to allow click on suggestion
+    setTimeout(() => setShowSuggestions(false), 150); // Delay to allow click on suggestion
   };
 
   return (
